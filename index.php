@@ -21,22 +21,22 @@
     <link rel="stylesheet" href="build/css/app.css?v=<?=theVersion();?>">  
 </head>
 
-<body> 
-    <header  class=" header">
-       <div class="container maxmd:px-0 md:pr-[110px] ">
+<body class="bg-[#dddddd]"> 
+    <header  class=" header ">
+       <div class="max-w-container maxmd:px-0 md:pr-[110px] bg-white ">
          <div  class="header-content py-20" >
              <!--   <img src="" alt=""> -->
           </div>
       </div>
     </header>
-    <main  class=" mt-[100px] sm:mt-[200px] md:mt-[210px]">
-      <div class="container">
-         <section>
+    <main  class=" mt-[110px] sm:mt-[200px] md:mt-[210px]">
+      <div  class="bg-white max-w-container shadow-md">
+         <section class="relative">
             <div class="text-center" >
                <h2  class="text-primary-500" >¡Hola Mamá!</h2>
                <p  class="sm:text-h3" >Bienvenida al reto Pigeon SofTouch</p>
                <div class="mt-[23px]">
-                  <img src="build/img/estira-y-compara.jpg" alt="">
+                  <img  class="mx-auto" src="build/img/estira-y-compara.jpg" alt="">
                </div>
             </div>
          </section>
@@ -54,8 +54,8 @@
                         </figure> 
                       </div> 
                </div>
-               <div  class="mt-[23px]">
-                  <p  class="text-[21px] tracking-[0.60px] font-medium " >*La leche materna es el mejor alimento para tu bebé</p>
+               <div  class="mt-[23px] px-10">
+                  <p  class="sm:text-[21px] tracking-[0.60px] font-medium " >*La leche materna es el mejor alimento para tu bebé</p>
                </div>
             </div>
          </section>
@@ -129,10 +129,10 @@
                </div> 
             </div>
          </section>
-        <!--  <section  class="text-center">
+         <section  class="text-center">
             <img  class="mx-auto" src="build/img/biberon-pigeon.jpg" alt="">
-         </section> -->
-         <!-- <section  class="text-center flex justify-center pt-[34px] pb-[38px] ">
+         </section>
+         <section  class="text-center flex justify-center pt-[34px] pb-[38px] ">
                    <div  class="flex justify-center flex-col sm:flex-row maxsm:space-y-4  sm:space-x-[14px]" >
                      <figure  class="flex-shrink"  >
                         <img  src="build/img/you-hug.jpg" alt="">
@@ -142,8 +142,106 @@
                      </figure>
                    </div>
          </section>
-         <section class="pb-[32px] text-center"><p  class=" text-[21px] tracking-[0.60px] " >*La leche materna es el mejor alimento para tu bebé</p></section>
- -->
+         <section class="pb-[34px] text-center px-10"><p  class=" sm:text-[21px] tracking-[0.60px] " >*La leche materna es el mejor alimento para tu bebé</p></section>
+         <section  class="text-center   ">
+                   <div  class="flex justify-center flex-col md:flex-row maxmd:space-y-[3px]  md:space-x-[3px]" >
+                      <div  class="flex justify-center items-center text-center py-6 px-4 bg-[#d1b7d2] text-white p-4 flex-grow" >
+                           <div class="pt-3">
+                              <h2  class="text-white text-[40px] sm:text-[63px]" >Tetina anticólica </h2>
+                              <p  class=" text-[22px] sm:text-[31px] font-semibold mt-[22px]">100% respaldada <br>
+                                 científicamente para <br>
+                                 reducir los cólicos.</p>
+                              <img  class="mx-auto mt-[18px]" src="build/img/tetina-anticolica.png" alt="">
+                              
+                           </div>
+                      </div>
+                     <figure class=" " >
+                        <img  class="mx-auto" src="build/img/valvula-que-regula.jpg" alt="">
+                     </figure>
+                   </div>
+         </section>
+         <section class="bg-[#e8dcea] py-[56px] " >
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   md:gap-[12px]    text-center   "> 
+                     <div  class="px-2">
+                        <img class="mx-auto w-[70px] sm:w-[79px] " src="build/svg/bebe-icon.svg" alt=""> 
+                        <p class="mt-[20px] text-[18px] sm:text-[22px] tracking-[0.40px] text-dark2 ">
+                        Ayuda al bebé a <br>
+                        alimentarse más <br>
+                        cómodamente.
+                           </p>
+                     </div> 
+                     <div  class="px-2">
+                        <img class="mx-auto w-[70px] sm:w-[79px] " src="build/svg/biberon-icon.svg" alt="">  
+                        <p class="mt-[20px] text-[18px] sm:text-[22px] tracking-[0.40px] text-dark2 ">
+                        Facilita la salida de la leche <br>
+                           y evita la succión de aire <br>
+                           que genera gases durante <br>
+                           las tomas.
+                           </p>
+                     </div> 
+                     <div  class="px-2">
+                        <img class="mx-auto w-[70px] sm:w-[79px] " src="build/svg/corazon-icon.svg" alt=""> 
+                        <p class="mt-[20px] text-[18px] sm:text-[22px] tracking-[0.40px] text-dark2 ">
+                        Previene los malestares <br>
+                        estomacales y dolores <br>
+                        abdominales que molestan <br>
+                        al bebé durante sus <br>
+                        primeros meses.
+                           </p>
+                     </div> 
+            </div> 
+         </section>
+         <section  class="text-center mt-[9px]">
+            <img  class="mx-auto" src="build/img/mas-de-65-ahos.jpg" alt="">
+         </section>
+         <section  class="py-[23px] px-10 text-center">
+            <p  class="sm:text-[21px] tracking-[0.60px] font-medium " >*La leche materna es el mejor alimento para tu bebé</p>
+         </section>
+         <section  class="pt-[65px]  pb-[31px] text-center bg-[#fcf0f5]">
+               <div class="px-4">
+                  <h2  class="text-primary-500 text-[38px]  sm:text-[44px] md:text-[54px]" >¿Cómo escoger el tamaño de tetina?</h2>
+                  <p  class="  text-[22px]  sm:text-[30px] md:text-[38px] tracking-[0.20px] mt-[13px]" >Cubrimos todas las etapas de tu bebé</p>
+               </div>
+               <div class="mt-[55px] pl-4 pr-4 md:pr-24">
+                  <img class="max-w-[827px] ml-auto " src="build/svg/tamaho-de-tetina.svg" alt="">
+               </div>
+             <!--  <div  class="flex justify-center maxsm:px-4" >
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-[50px] sm:gap-[73px]   text-center  mt-[42px]  "> 
+                        <div>
+                           <div>
+                              <img class="mx-auto   " src="build/img/agujero-redondo.jpg" alt=""> 
+                              <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
+                                 <div class="relative" >
+                                    <h3  class="text-[28px] sm:text-[34px] text-white" >Agujero Redondo</h3>
+                                       <p class="mt-[22px] text-[18px] sm:text-[22px] tracking-[0.20px] font-medium  ">
+                                       Las gotas de leche caen con <br>
+                                       una mínima succión del <br>
+                                       bebé. Su mandíbula aún no <br>
+                                       está bien desarrollada.
+                                          </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> 
+               
+                        <div>
+                           <div>
+                              <img class="mx-auto   " src="build/img/agujero-corte-y.jpg" alt=""> 
+                              <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
+                                 <div class="relative" >
+                                    <h3  class="text-[28px] sm:text-[34px] text-white" >Agujero Corte Y</h3>
+                                       <p class="mt-[22px] text-[18px] sm:text-[22px] tracking-[0.20px]  ">
+                                       Las gotas de leche caen con <br>
+                                       la ayuda del bebé, para que <br>
+                                       tome lo necesario.
+                                          </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> 
+                  </div>
+              </div>  -->
+         </section>
 
       </div>
       <div class="h-20"></div>
@@ -151,8 +249,7 @@
       <div class="h-20"></div>
       <div class="h-20"></div>
       <div class="h-20"></div>
-      <div class="h-20"></div>
-        <h1 class=" absolute text-transparent text-center  w-full  z-[-1]  " >OMRON Perú: Cuida tu salud. Tensiómetro precisos y fáciles de usar</h1>
+      <div class="h-20"></div> 
     
               
         <!--     <div >
@@ -160,6 +257,7 @@
                         
                       </div>
                   </div> --> 
+                  </div>       
      </main>
 </body>
 
