@@ -21,17 +21,23 @@
     <link rel="stylesheet" href="build/css/app.css?v=<?=theVersion();?>">  
 </head>
 
-<body class="bg-[#dddddd]"> 
-    <header  class=" header ">
-       <div class="max-w-container maxmd:px-0 md:pr-[110px] bg-white ">
-         <div  class="header-content py-20" >
-             <!--   <img src="" alt=""> -->
-          </div>
-      </div>
-    </header>
-    <main  class=" mt-[110px] sm:mt-[200px] md:mt-[210px]">
+<body class="bg-[#dddddd]">  
+   
+    <div>
       <div  class="bg-white max-w-container shadow-md">
-         <section class="relative">
+         <header> 
+               <div class="max-w-container relative bg-white">
+                  <img   src="build/img/header-oval.png" alt="">  
+                  
+                  <figure class=" absolute top-[10px] sm:top-[30px] md:top-[50px] lg:top-[67px] left-[26px] sm:left-[60px] lg:left-[135px]"> 
+                     <svg class="w-full h-[40px] sm:h-[58px] max-w-[94px]  sm:max-w-[120px] md:max-w-[230px] lg:max-w-[192px] text-white fill-current "  ><use href="/build/svg/icons.svg#pigeon"></svg>
+                  </figure>
+               </div> 
+         </header>
+         <main >
+
+        
+         <section class="relative mt-[15px]  lg:mt-[-15px] xl:mt-[-23px]">
             <div class="text-center" >
                <h2  class="text-primary-500" >¡Hola Mamá!</h2>
                <p  class="sm:text-h3" >Bienvenida al reto Pigeon SofTouch</p>
@@ -205,7 +211,7 @@
                <div class="mt-[55px] pl-4 pr-4 md:pr-24">
                   <img class="max-w-[827px] ml-auto " src="build/svg/tamaho-de-tetina.svg" alt="">
                </div>
-             <!--  <div  class="flex justify-center maxsm:px-4" >
+              <div  class="flex justify-center maxsm:px-4" >
                <div class="grid grid-cols-1 md:grid-cols-2 gap-[50px] sm:gap-[73px]   text-center  mt-[42px]  "> 
                         <div>
                            <div>
@@ -240,25 +246,45 @@
                            </div>
                         </div> 
                   </div>
-              </div>  -->
+              </div> 
          </section>
+         <section  class="text-center relative">
+            <div  div  class="md:absolute left-[5%] lg:left-[10.3%] bottom-0 bg-[#f8dfe9] py-[28px] px-[40px] lg:px-[46px] lg:w-full lg:max-w-[340px] " >
+               <p  class=" text-[20px] lg:text-[26px] text-dark2 tracking-[0.20px] lg:leading-[32.69px]" >
+               Estira y compara la <br>
+               flexibilidad y suavidad <br>
+               de una tetina Pigeon. <br>
+               Elige lo mejor para tu <br>
+               bebé, desde sus <br>
+               primeros días.
+               </p>
+            </div>
+            <img  class="mx-auto" src="build/img/flexibilidad-de-tetina.jpg" alt="">
+            <div  class="md:absolute right-[4%]  lg:right-[6.1%] top-[50%] md:translate-y-[-50%] md:max-w-[300px]  lg:max-w-full " > 
+                     <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg" alt="">  
+            </div>
+         </section>
+         <section class=" pt-[50px] sm:pt-[60px] pb-[20px] px-4"  >
+            <div class="text-center max-w-[1000px] mx-auto" >
+               <h4  class=" text-[24px] sm:text-[30px] md:text-[38px] tracking-[0.20px] leading-[30px] md:leading-[48.69px]  mb-[15px]" > <span class="font-medium">¡Reto cumplido!</span> Ahora que ya comprobaste que nuestro
+biberón Softouch es el más suave y flexible</h4>
+               <a  class=" text-[20px] sm:text-[31px] text-primary-500 font-oscine font-bold tracking-[4px] sm:tracking-[8px]  " >CÓMPRALO AQUI</a> 
+            </div>
+         </section>
+         </main>
+         <footer  class="relative" >
+                <img  class="mx-auto" src="build/svg/footer-curva.svg" alt="">  
+                <div class="absolute w-full bottom-0 flex justify-between items-end pl-4 sm:pl-[68px] pr-4 sm:pr-[64px]" >
+                  <h6  class=" text-[13px] xs:text-[15px] sm:text-[20px] md:text-[25px] lg:text-[33.33px] tracking-[0.20px] text-white2 mb-[13px] sm:mb-[48px] lg:mb-[63px]" >Disfruta a los bebés tal como son</h6> 
+                  <figure class=" mb-[20px] sm:mb-[30px] md:mb-[50px] lg:mb-[100px]"> 
+                     <svg class="w-full h-[40px] sm:h-[93px] max-w-[94px]  sm:max-w-[180px] md:max-w-[230px] lg:max-w-[329px] text-white fill-current "  ><use href="/build/svg/icons.svg#pigeon"></svg>
+                  </figure>
+                </div>
+         </footer>
 
-      </div>
-      <div class="h-20"></div>
-      <div class="h-20"></div>
-      <div class="h-20"></div>
-      <div class="h-20"></div>
-      <div class="h-20"></div>
-      <div class="h-20"></div> 
+      </div>  
+   </div>       
     
-              
-        <!--     <div >
-                      <div class="grid grid-cols-4 sm:grid-cols-8 gap-0   "> 
-                        
-                      </div>
-                  </div> --> 
-                  </div>       
-     </main>
 </body>
 
 </html>
