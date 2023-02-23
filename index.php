@@ -115,7 +115,7 @@
                            lengua.</p>
                         </div> 
                         <div  class="    ">
-                           <img class="maxlg:w-[195px] mx-auto " src="build/img/enganchar.jpg" alt=""> 
+                           <img class="maxlg:w-[195px] mx-auto " src="build/img/succionar.jpg" alt=""> 
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
                            La lengua hace un<br>
@@ -124,7 +124,7 @@
                            </p>
                         </div> 
                         <div  class="    ">
-                           <img class="maxlg:w-[195px] mx-auto " src="build/img/enganchar.jpg" alt=""> 
+                           <img class="maxlg:w-[195px] mx-auto " src="build/img/tragar.jpg" alt=""> 
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
                               La leche se transfiere<br>
