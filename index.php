@@ -69,7 +69,9 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-               <video   id="autoplay" autoplay muted playsinline data-src="build/video/estira-y-compra.mp4"   poster="build/img/estira-y-compra.jpg"   class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >  </video>
+               <video id="autoplay" muted playsinline controls  loop  class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >
+                     <source src="build/video/estira-y-compra.mp4"  >
+                  </video>
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
@@ -122,6 +124,9 @@
               </div> 
              
        </section>
+    <!--    <div class="relative">
+          <video   data-src="build/video/estira-y-compra.mp4"    class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >  </video>
+       </div> -->
        <section  class="text-center">
          <img  class="mx-auto" src="build/img/latch-on.jpg" alt="">
        </section>
@@ -161,8 +166,7 @@
                </div> 
             </div>
          </section>
-         <!-- <video   autoplay muted playsinline  data-src="build/video/estira-y-compra.mp4"   poster="build/img/estira-y-compra.jpg"   class="   lazy bottom-0  left-[50%]   w-full "  >  </video>
- -->
+      
          <section  class="text-center">
             <img  class="mx-auto" src="build/img/biberon-pigeon.jpg" alt="">
          </section>
@@ -312,8 +316,59 @@ biberón Softouch es el más suave y flexible</h4>
 
       </div>  
    </div>       
-   <script> 
-window.addEventListener('load', videoScroll);
+   <script>
+   
+   
+document.getElementById('autoplay').play();
+
+const videos = document.querySelectorAll('video');
+ 
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+   if (entry.target.id == "autoplay") {
+      return false;
+   } 
+   if (entry.isIntersecting) {
+      const video = entry.target;
+      // Cargar y reproducir el video
+      video.src = video.dataset.src;
+      video.load();
+      video.play();
+      } else {
+      // Detener la carga y pausar la reproducción
+      const video = entry.target;
+      video.pause();
+      video.removeAttribute('src');
+      video.load();
+   } 
+  });
+});
+
+videos.forEach(video => {
+  observer.observe(video);
+});
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+/* window.addEventListener('load', videoScroll);
 window.addEventListener('scroll', videoScroll);
 
 function videoScroll() {
@@ -347,7 +402,7 @@ function videoScroll() {
     }
   }
 
-}
+} */
  /*   videoJS('#theVideo').on('ended', function() {
    var videoposter = "poster-image-file.jpg";
    $('.vjs-poster').css({
