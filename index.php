@@ -49,7 +49,7 @@
          <section  class="text-center mt-[23px]">
             <div  class="max-w-[1151px] relative overflow-hidden mx-auto " >
 
-               <h3 class="text-center absolute text-[22px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
+               <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
           
               <img  class="mx-auto" src="build/img/estira-y-compra.jpg" alt="">
               <div  class="absolute left-[22px]  bottom-[18px]  text-left z-[1]" > 
