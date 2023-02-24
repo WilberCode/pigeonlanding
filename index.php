@@ -57,7 +57,7 @@
                    <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
               </div>
               <div  div  class="absolute right-[5%] lg:right-[100px] bottom-[8%] md:bottom-[89px] z-[1]   " >
-                 <p  class=" text-[16px] sm:text-[20px] lg:text-[31.49px] text-dark2 tracking-[0.20px] lg:leading-[36.14px] text-right " >
+                 <p  class=" text-[14px] sm:text-[20px] lg:text-[31.49px] text-dark2 tracking-[0.20px] lg:leading-[36.14px] text-right " >
                   Conoce todos <br>
                   los beneficios <br>
                   <span  class="font-bold">
