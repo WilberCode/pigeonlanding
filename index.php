@@ -41,11 +41,37 @@
             <div class="text-center" >
                <h2  class="text-primary-500" >¡Hola Mamá!</h2>
                <p  class="sm:text-h3" >Bienvenida al reto Pigeon SofTouch</p>
-               <div class="mt-[23px]">
+             <!--   <div class="mt-[23px]">
                   <img  class="mx-auto" src="build/img/estira-y-compara.jpg" alt="">
-               </div>
+               </div> -->
             </div>
          </section>
+         <section  class="text-center mt-[23px]">
+            <div  class="max-w-[1151px] relative overflow-hidden mx-auto " >
+
+               <h3 class="text-center absolute text-[22px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
+          
+              <img  class="mx-auto" src="build/img/estira-y-compra.jpg" alt="">
+              <div  class="absolute left-[22px]  bottom-[18px]  text-left z-[1]" > 
+                   <img  class=" ml-1 md:ml-[23px] w-[50px] sm:w-[80px] md:w-[100px]  lg:w-auto " src="build/img/global.png" alt="">
+                   <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
+              </div>
+              <div  div  class="absolute right-[5%] lg:right-[100px] bottom-[8%] md:bottom-[89px] z-[1]   " >
+                 <p  class=" text-[16px] sm:text-[20px] lg:text-[31.49px] text-dark2 tracking-[0.20px] lg:leading-[36.14px] text-right " >
+                  Conoce todos <br>
+                  los beneficios <br>
+                  <span  class="font-bold">
+                     del biberón <br>
+                     favorito de <br>
+                     cada vez <br>
+                     más bebés
+                  </span>
+                 </p>
+                 <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
+               </div> 
+               <video   id="autoplay" autoplay muted playsinline data-src="build/video/estira-y-compra.mp4"   poster="build/img/estira-y-compra.jpg"   class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >  </video>
+            </div>
+         </section> 
          <section  class="pt-[40px] pb-[30px]" >
             <div class="text-center" >
                <h2  class="text-primary-500" >Suave y muy flexible</h2>
@@ -135,6 +161,8 @@
                </div> 
             </div>
          </section>
+         <!-- <video   autoplay muted playsinline  data-src="build/video/estira-y-compra.mp4"   poster="build/img/estira-y-compra.jpg"   class="   lazy bottom-0  left-[50%]   w-full "  >  </video>
+ -->
          <section  class="text-center">
             <img  class="mx-auto" src="build/img/biberon-pigeon.jpg" alt="">
          </section>
@@ -284,7 +312,61 @@ biberón Softouch es el más suave y flexible</h4>
 
       </div>  
    </div>       
-    
+   <script> 
+window.addEventListener('load', videoScroll);
+window.addEventListener('scroll', videoScroll);
+
+function videoScroll() {
+
+  if ( document.querySelectorAll('video[autoplay]').length > 0) {
+    var windowHeight = window.innerHeight,
+        videoEl = document.querySelectorAll('video[autoplay]');
+
+    for (var i = 0; i < videoEl.length; i++) {
+
+      var thisVideoEl = videoEl[i],
+          videoHeight = thisVideoEl.clientHeight,
+          videoClientRect = thisVideoEl.getBoundingClientRect().top;
+        
+            
+      if ( videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ) {
+         console.log(thisVideoEl.src);
+         const videoSrc = thisVideoEl.getAttribute('data-src');
+         if (thisVideoEl.src ='' || thisVideoEl.src != videoSrc ) {
+            
+            thisVideoEl.setAttribute('src', videoSrc);
+          }
+            
+
+        thisVideoEl.play();
+         
+      } else {
+        thisVideoEl.pause();   
+      }
+
+    }
+  }
+
+}
+ /*   videoJS('#theVideo').on('ended', function() {
+   var videoposter = "poster-image-file.jpg";
+   $('.vjs-poster').css({
+      'background-image': 'url('+videoposter+')',
+      'display': 'block'
+   });
+   this *//* .posterImage.show()
+   }); */
+</script>
+<!-- <script>
+  window.lazyLoadOptions = {
+    elements_selector: ".lazy"
+  };
+</script>
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js">
+</script> -->
+ 
 </body>
 
 </html>
