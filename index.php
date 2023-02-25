@@ -51,7 +51,7 @@
 
                <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
           
-              <img  class="mx-auto" src="build/img/estira-y-compra.jpg" alt="">
+              <img  class="mx-auto" src="build/img/estira-y-compara.jpg" alt="">
               <div  class="absolute left-[22px]  bottom-[18px]  text-left z-[1]" > 
                    <img  class=" ml-1 md:ml-[23px] w-[50px] sm:w-[80px] md:w-[100px]  lg:w-auto " src="build/img/global.png" alt="">
                    <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
@@ -69,8 +69,8 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-               <video id="autoplay" muted playsinline controls  loop  class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >
-                     <source src="build/video/estira-y-compra.mp4"  >
+               <video id="autoplay" muted playsinline   loop poster="build/img/estira-y-compara.jpg" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
+                     <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video>
             </div>
          </section> 
@@ -80,8 +80,10 @@
                <p  class=" sm:text-h3" >Evita la confusión tetina / chupete con el pezón</p>
                <div class="mt-[23px]  flex justify-center ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
-                        <figure>
-                           <img src="build/img/tetina.jpg" alt="">
+                        <figure class="relative block" >
+                           <img src="build/img/softouch-bg.jpg" alt=""> 
+                           <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%]" src="build/svg/softouch.svg" alt=""> 
+                           <video  data-src="build/video/suave-video-left.mp4" loop type="video/mp4" poster="build/img/tetina.jpg.jpg" class="absolute lazy   bottom-0    w-full  "  >    </video>
                         </figure>
                         <figure>
                            <img src="build/img/chupete.jpg" alt="">
