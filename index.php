@@ -69,24 +69,28 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-               <video id="autoplay" muted playsinline   loop poster="build/img/estira-y-compara.jpg" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
+                <video id="autoplay" muted playsinline   loop poster="build/img/estira-y-compara.jpg" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video>
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
             <div class="text-center" >
-               <h2  class="text-primary-500" >Suave y muy flexible</h2>
-               <p  class=" sm:text-h3" >Evita la confusión tetina / chupete con el pezón</p>
+               <div  class="px-4" >
+                  <h2  class="text-primary-500" >Suave y muy flexible</h2>
+                  <p  class=" sm:text-h3" >Evita la confusión tetina / chupete con el pezón</p>
+               </div>
                <div class="mt-[23px]  flex justify-center ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
                         <figure class="relative block" >
                            <img src="build/img/softouch-bg.jpg" alt=""> 
                            <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%]" src="build/svg/softouch.svg" alt=""> 
-                           <video  data-src="build/video/suave-video-left.mp4" loop type="video/mp4" poster="build/img/tetina.jpg.jpg" class="absolute lazy   bottom-0    w-full  "  >    </video>
+                           <video  data-src="build/video/suave-video-left.mp4" loop type="video/mp4" poster="build/img/softouch-bg.jpg" class="absolute lazy   bottom-0    w-full  "  >    </video>
                         </figure>
-                        <figure>
-                           <img src="build/img/chupete.jpg" alt="">
+                        <figure class="relative block" > 
+                           <img src="build/img/tetina-ss-bg.jpg" alt="">
+                           <video  data-src="build/video/suave-video-right.mp4" loop type="video/mp4" poster="build/img/tetina-ss-bg.jpg" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
+                           <h5  class=" z-[1] absolute right-[16px] bottom-[24px] text-white text-[12px] tracking-[0.60px] leading-[28.91px]  " >*Se utilizó una tetina SS para esta prueba.</h5>
                         </figure> 
                       </div> 
                </div>
@@ -126,20 +130,29 @@
               </div> 
              
        </section>
-    <!--    <div class="relative">
-          <video   data-src="build/video/estira-y-compra.mp4"    class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full "  >  </video>
-       </div> -->
-       <section  class="text-center">
-         <img  class="mx-auto" src="build/img/latch-on.jpg" alt="">
+    
+       <section  class=" flex justify-center">
+         <div  class="relative" >
+
+            <img  class="mx-auto" src="build/img/latch-on.jpg" alt="">
+            <video  data-src="build/video/latch-on.mp4" loop type="video/mp4" poster="build/img/latch-on.jpg" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
+         </div> 
        </section>
        <section  class="pt-[40px] pb-[43px]" >
             <div class="text-center" >
-               <h2  class=" text-[22px] sm:text-[38px]  md:text-[46px]  text-primary-500 font-medium  tracking-[0.80px] " >Mira el ultrasonido 4D en vivo</h2>
-               <h3  class="text-primary-500 sm:text-[40px] md:text-[54px]   mt-[32px] " >El biberón SofTouch simula <br> los 3 pasos básicos de la lactancia</h3>
+               <div class="px-4" >
+                  <h2  class=" text-[22px] sm:text-[38px]  md:text-[46px]  text-primary-500 font-medium  tracking-[0.80px] " >Mira el ultrasonido 4D en vivo</h2>
+                  <h3  class="text-primary-500 sm:text-[40px] md:text-[54px]   mt-[32px] " >El biberón SofTouch simula <br> los 3 pasos básicos de la lactancia</h3>
+               </div>
                <div class="mt-[45px]  flex justify-center ">
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
-                           <img class="maxlg:w-[195px] mx-auto " src="build/img/enganchar.jpg" alt=""> 
+                           <div  class="flex justify-center  ">
+                              <div  class="relative w-[210px] h-[210px]     ">
+                                 <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg" alt=""> 
+                                 <video  data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg" class="absolute w-[210px] h-[210px]   lazy bottom-0 top-0 left-0 right-0  "></video>
+                              </div>
+                           </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">La boca del bebé se <br>
                            engancha al seno y sella el <br>
@@ -147,8 +160,13 @@
                            el pezón con sus labios y<br>
                            lengua.</p>
                         </div> 
-                        <div  class="    ">
-                           <img class="maxlg:w-[195px] mx-auto " src="build/img/succionar.jpg" alt=""> 
+                        <div  class=" "> 
+                           <div  class="flex justify-center ">
+                              <div  class="relative w-[210px] h-[210px]   ">
+                                 <img class=" x-auto w-[195px]  h-[195px]" src="build/img/succionar.jpg" alt=""> 
+                                 <video  data-src="build/video/succionar.mp4" loop type="video/mp4" poster="build/img/succionar.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                              </div>
+                           </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
                            La lengua hace un<br>
@@ -156,8 +174,13 @@
                            para extraer la leche.
                            </p>
                         </div> 
-                        <div  class="    ">
-                           <img class="maxlg:w-[195px] mx-auto " src="build/img/tragar.jpg" alt=""> 
+                        <div  class=""> 
+                           <div  class="flex justify-center ">
+                              <div  class="relative w-[210px] h-[210px]   ">
+                                 <img class=" mx-auto  w-[195px]  h-[195px]" src="build/img/tragar.jpg" alt=""> 
+                                 <video  data-src="build/video/tragar.mp4" loop type="video/mp4" poster="build/img/tragar.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                              </div>
+                           </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
                               La leche se transfiere<br>
@@ -168,18 +191,34 @@
                </div> 
             </div>
          </section>
-      
+     <!--  
          <section  class="text-center">
             <img  class="mx-auto" src="build/img/biberon-pigeon.jpg" alt="">
+         </section> -->
+
+         <section  class=" flex justify-center">
+            <div  class="relative" >
+
+               <img  class="mx-auto" src="build/img/biberon-pigeon.jpg" alt="">
+               <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+            </div> 
          </section>
+
          <section  class="text-center flex justify-center pt-[34px] pb-[38px] ">
                    <div  class="flex justify-center flex-col sm:flex-row maxsm:space-y-4  sm:space-x-[14px]" >
-                     <figure  class="flex-shrink"  >
-                        <img  src="build/img/you-hug.jpg" alt="">
-                     </figure>
-                     <figure >
-                        <img  class="mx-auto" src="build/img/biberon-verde.jpg" alt="">
-                     </figure>
+                     <div  class="sm:flex-shrink"  > 
+                        <div  class="relative" > 
+                           <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                           <img  class="mx-auto" src="build/img/you-hug.jpg" alt="">
+                           <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                        </div> 
+                     </div>
+                     <div > 
+                        <div  class="relative w-ful max-w-[338px] mx-auto" > 
+                           <img  class="mx-auto" src="build/img/biberon-verde.jpg" alt="">
+                           <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                        </div> 
+                     </div>
                    </div>
          </section>
          <section class="pb-[34px] text-center px-10"><p  class=" sm:text-[21px] tracking-[0.60px] " >*La leche materna es el mejor alimento para tu bebé</p></section>
@@ -249,7 +288,12 @@
                <div class="grid grid-cols-1 md:grid-cols-2 gap-[50px] sm:gap-[73px]   text-center  mt-[42px]  "> 
                         <div>
                            <div>
-                              <img class="mx-auto   " src="build/img/agujero-redondo.jpg" alt=""> 
+                              <!-- <img class="mx-auto   " src="build/img/agujero-redondo.jpg" alt="">  -->
+                              <div  class="relative" > 
+                              <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                                 <img  class="mx-auto" src="build/img/agujero-redondo.jpg" alt="">
+                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-redondo.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                              </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
                                  <div class="relative" >
                                     <h3  class="text-[28px] sm:text-[34px] text-white" >Agujero Redondo</h3>
@@ -266,7 +310,12 @@
                
                         <div>
                            <div>
-                              <img class="mx-auto   " src="build/img/agujero-corte-y.jpg" alt=""> 
+                            <!--   <img class="mx-auto   " src="build/img/agujero-corte-y.jpg" alt="">  -->
+                              <div  class="relative" > 
+                              <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                                 <img  class="mx-auto" src="build/img/agujero-corte-y.jpg" alt="">
+                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                              </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
                                  <div class="relative" >
                                     <h3  class="text-[28px] sm:text-[34px] text-white" >Agujero Corte Y</h3>
@@ -282,7 +331,7 @@
                   </div>
               </div> 
          </section>
-         <section  class="text-center relative">
+         <section  class="text-center relative bg-[#eeeef0]">
             <div  div  class="md:absolute left-[5%] lg:left-[10.3%] bottom-0 bg-[#f8dfe9] py-[28px] px-[40px] lg:px-[46px] lg:w-full lg:max-w-[340px] " >
                <p  class=" text-[20px] lg:text-[26px] text-dark2 tracking-[0.20px] lg:leading-[32.69px]" >
                Estira y compara la <br>
@@ -295,7 +344,12 @@
             </div>
             <img  class="mx-auto" src="build/img/flexibilidad-de-tetina.jpg" alt="">
             <div  class="md:absolute right-[4%]  lg:right-[6.1%] top-[50%] md:translate-y-[-50%] md:max-w-[300px]  lg:max-w-full " > 
-                     <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg" alt="">  
+                  <!--    <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg" alt="">   -->
+                  <div  class="relative" > 
+                  <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                     <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg" alt="">
+                     <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/flexibilidad-de-tetina-video.jpg" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full h-full object-cover "></video>
+                  </div> 
             </div>
          </section>
          <section class=" pt-[50px] sm:pt-[60px] pb-[20px] px-4"  >
@@ -336,11 +390,13 @@ const observer = new IntersectionObserver(entries => {
       video.src = video.dataset.src;
       video.load();
       video.play();
+      video.muted = true;
       } else {
       // Detener la carga y pausar la reproducción
       const video = entry.target;
       video.pause();
       video.removeAttribute('src');
+      video.muted = true;
       video.load();
    } 
   });
@@ -369,15 +425,15 @@ videos.forEach(video => {
 
 
 
-
-/* window.addEventListener('load', videoScroll);
+/* 
+window.addEventListener('load', videoScroll);
 window.addEventListener('scroll', videoScroll);
 
 function videoScroll() {
 
-  if ( document.querySelectorAll('video[autoplay]').length > 0) {
+  if ( document.querySelectorAll('video').length > 0) {
     var windowHeight = window.innerHeight,
-        videoEl = document.querySelectorAll('video[autoplay]');
+        videoEl = document.querySelectorAll('video');
 
     for (var i = 0; i < videoEl.length; i++) {
 
