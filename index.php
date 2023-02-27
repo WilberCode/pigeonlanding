@@ -47,7 +47,7 @@
             </div>
          </section>
          <section  class="text-center mt-[23px]">
-            <div  class="max-w-[1151px] relative overflow-hidden mx-auto " >
+            <div  class="max-w-[1151px] relative overflow-hidden mx-auto video-container " >
 
                <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
           
@@ -69,9 +69,10 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-                <video id="autoplay" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
+              <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
-                  </video>
+                  </video> -->
+                  <video id="autoplay" preload="auto" muted playsinline   loop data-src="build/video/estira-y-compara.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >  </video> 
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
@@ -80,14 +81,14 @@
                   <h2  class="text-primary-500" >Suave y muy flexible</h2>
                   <p  class=" sm:text-h3" >Evita la confusión tetina / chupete con el pezón</p>
                </div>
-               <div class="mt-[23px]  flex justify-center ">
+               <div class="mt-[23px]  flex justify-center  ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
-                        <figure class="relative block" >
+                        <figure class="relative block video-container" >
                            <img src="build/img/softouch-bg.jpg?v=<?=theVersion();?>" alt=""> 
                            <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%]" src="build/svg/softouch.svg" alt=""> 
-                           <video  data-src="build/video/suave-video-left.mp4" loop type="video/mp4" poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0    w-full  "  >    </video>
+                           <video  data-src="build/video/suave-video-left.mp4?v=<?=theVersion();?>" loop type="video/mp4" poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0    w-full  video  "  >    </video>
                         </figure>
-                        <figure class="relative block" > 
+                        <figure class="relative block video-container" > 
                            <img src="build/img/tetina-ss-bg.jpg?v=<?=theVersion();?>" alt="">
                            <video  data-src="build/video/suave-video-right.mp4" loop type="video/mp4" poster="build/img/tetina-ss-bg.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
                            <h5  class=" z-[1] absolute right-[16px] bottom-[24px] text-white text-[12px] tracking-[0.60px] leading-[28.91px]  " >*Se utilizó una tetina SS para esta prueba.</h5>
@@ -132,7 +133,7 @@
        </section>
     
        <section  class=" flex justify-center">
-         <div  class="relative" >
+         <div  class="relative video-container" >
 
             <img  class="mx-auto" src="build/img/latch-on.jpg?v=<?=theVersion();?>" alt="">
             <video  data-src="build/video/latch-on.mp4" loop type="video/mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
@@ -148,7 +149,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
                            <div  class="flex justify-center  ">
-                              <div  class="relative w-[210px] h-[210px]     ">
+                              <div  class="relative video-container w-[210px] h-[210px]     ">
                                  <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg?v=<?=theVersion();?>" alt=""> 
                                  <video  data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]   lazy bottom-0 top-0 left-0 right-0  "></video>
                               </div>
@@ -162,7 +163,7 @@
                         </div> 
                         <div  class=" "> 
                            <div  class="flex justify-center ">
-                              <div  class="relative w-[210px] h-[210px]   ">
+                              <div  class="relative video-container w-[210px] h-[210px]   ">
                                  <img class=" x-auto w-[195px]  h-[195px]" src="build/img/succionar.jpg?v=<?=theVersion();?>" alt=""> 
                                  <video  data-src="build/video/succionar.mp4" loop type="video/mp4" poster="build/img/succionar.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div>
@@ -176,7 +177,7 @@
                         </div> 
                         <div  class=""> 
                            <div  class="flex justify-center ">
-                              <div  class="relative w-[210px] h-[210px]   ">
+                              <div  class="relative video-container w-[210px] h-[210px]   ">
                                  <img class=" mx-auto  w-[195px]  h-[195px]" src="build/img/tragar.jpg?v=<?=theVersion();?>" alt=""> 
                                  <video  data-src="build/video/tragar.mp4" loop type="video/mp4" poster="build/img/tragar.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div>
@@ -197,7 +198,7 @@
          </section> -->
 
          <section  class=" flex justify-center">
-            <div  class="relative" >
+            <div  class="relative video-container" >
 
                <img  class="mx-auto" src="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" alt="">
                <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
@@ -207,14 +208,14 @@
          <section  class="text-center flex justify-center pt-[34px] pb-[38px] ">
                    <div  class="flex justify-center flex-col sm:flex-row maxsm:space-y-4  sm:space-x-[14px]" >
                      <div  class="sm:flex-shrink"  > 
-                        <div  class="relative" > 
+                        <div  class="relative video-container" > 
                            <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                            <img  class="mx-auto" src="build/img/you-hug.jpg?v=<?=theVersion();?>" alt="">
                            <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
                      </div>
                      <div > 
-                        <div  class="relative w-ful max-w-[338px] mx-auto" > 
+                        <div  class="relative video-container w-ful max-w-[338px] mx-auto" > 
                            <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?=theVersion();?>" alt="">
                            <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
@@ -289,8 +290,8 @@
                         <div>
                            <div>
                               <!-- <img class="mx-auto   " src="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" alt="">  -->
-                              <div  class="relative" > 
-                              <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                              <div  class="relative video-container" > 
+                                <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                                  <img  class="mx-auto" src="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" alt="">
                                  <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div> 
@@ -311,8 +312,8 @@
                         <div>
                            <div>
                             <!--   <img class="mx-auto   " src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">  -->
-                              <div  class="relative" > 
-                              <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                              <div  class="relative video-container" > 
+                                 <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                                  <img  class="mx-auto" src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">
                                  <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div> 
@@ -345,8 +346,8 @@
             <img  class="mx-auto" src="build/img/flexibilidad-de-tetina.jpg?v=<?=theVersion();?>" alt="">
             <div  class="md:absolute right-[4%]  lg:right-[6.1%] top-[50%] md:translate-y-[-50%] md:max-w-[300px]  lg:max-w-full " > 
                   <!--    <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">   -->
-                  <div  class="relative" > 
-                  <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
+                  <div  class="relative video-container" > 
+                     <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                      <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">
                      <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full h-full object-cover "></video>
                   </div> 
@@ -374,47 +375,21 @@ biberón Softouch es el más suave y flexible</h4>
    </div>       
    <script>
    
-   
-document.getElementById('autoplay').play();
+/* const video =  document.createElement(VideoElements.VIDEO); */
+/* const source =  document.createElement(VideoElements.SOURCE); */
 
-const videos = document.querySelectorAll('video');
+/* video.appendChild(source) */
+/* video.preload = 'auto' */
+/* source.src = 'http://' */
+
  
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-   if (entry.target.id == "autoplay") {
-      return false;
-   } 
-   if (entry.isIntersecting) {
-      const video = entry.target;
-      // Cargar y reproducir el video
-      video.src = video.dataset.src;
-      video.load();
-      video.play();
-      video.muted = true;
-      } else {
-      // Detener la carga y pausar la reproducción
-      const video = entry.target;
-      video.pause();
-      video.removeAttribute('src');
-      video.muted = true;
-      video.load();
-   } 
-  });
-});
-
-videos.forEach(video => {
-  observer.observe(video);
-});
 
 
 
 
 
 
-
-
-
-
+ 
  
  
 
@@ -462,7 +437,7 @@ function videoScroll() {
 
 } */
  /*   videoJS('#theVideo').on('ended', function() {
-   var videoposter = "poster-image-file.jpg?v=<?=theVersion();?>";
+   var videoposter = "poster-image-file.jpg?v=<?php//theVersion();?>";
    $('.vjs-poster').css({
       'background-image': 'url('+videoposter+')',
       'display': 'block'
@@ -479,6 +454,53 @@ function videoScroll() {
   async
   src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js">
 </script> -->
+
+
+<script>
+   var videos = document.querySelectorAll("video");
+var pausedVideos = {};
+
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function checkVisibility() {
+  for (var i = 0; i < videos.length; i++) {
+    var video = videos[i];
+    video.preload = 'auto';
+    var container = video.closest(".video-container");
+    var visible = isElementInViewport(container);
+    
+    if (visible) { 
+      console.log(video.src );
+      if (video.src ==''  ) {
+         video.src = data_src; 
+      }
+
+      if (pausedVideos[video.src]) {
+        video.currentTime = pausedVideos[video.src];
+        delete pausedVideos[video.src];
+      }
+      video.play();
+    } else {
+      if (!video.paused) {
+        video.pause();
+        pausedVideos[video.src] = video.currentTime;
+      }
+    }
+  }
+}
+
+// Llamar a la función cuando la página se carga y cuando el usuario desplaza la página
+window.onload = checkVisibility;
+window.addEventListener("scroll", checkVisibility);
+</script>
  
 </body>
 
