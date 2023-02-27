@@ -373,9 +373,9 @@ biberón Softouch es el más suave y flexible</h4>
 
       </div>  
    </div>       
-   <script>
+<!--      <script>
    
-/* const video =  document.createElement(VideoElements.VIDEO); */
+ const video =  document.createElement(VideoElements.VIDEO);    
 /* const source =  document.createElement(VideoElements.SOURCE); */
 
 /* video.appendChild(source) */
@@ -435,16 +435,9 @@ function videoScroll() {
     }
   }
 
-} */
- /*   videoJS('#theVideo').on('ended', function() {
-   var videoposter = "poster-image-file.jpg?v=<?php//theVersion();?>";
-   $('.vjs-poster').css({
-      'background-image': 'url('+videoposter+')',
-      'display': 'block'
-   });
-   this *//* .posterImage.show()
-   }); */
-</script>
+} 
+ 
+</script>*/
 <!-- <script>
   window.lazyLoadOptions = {
     elements_selector: ".lazy"
