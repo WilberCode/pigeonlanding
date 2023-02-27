@@ -450,7 +450,12 @@ function videoScroll() {
 
 
 <script src="build/js/app.js?v=<?=theVersion();?>"></script>
+<script src="build/js/jquery.lazy.min.js"></script>
+ <script>
+   
  
+            
+ </script>
 </body>
 
 </html>
