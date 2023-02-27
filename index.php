@@ -51,7 +51,7 @@
 
                <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
           
-              <img  class="mx-auto" src="build/img/estira-y-compara.jpg?v=<?=theVersion();?>" alt="">
+              <img  class="mx-auto" src="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" alt="">
               <div  class="absolute left-[22px]  bottom-[18px]  text-left z-[1]" > 
                    <img  class=" ml-1 md:ml-[23px] w-[50px] sm:w-[80px] md:w-[100px]  lg:w-auto " src="build/img/global.png" alt="">
                    <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
@@ -456,51 +456,7 @@ function videoScroll() {
 </script> -->
 
 
-<script>
-   var videos = document.querySelectorAll("video");
-var pausedVideos = {};
-
-function isElementInViewport(el) {
-  var rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
-
-function checkVisibility() {
-  for (var i = 0; i < videos.length; i++) {
-    var video = videos[i];
-    video.preload = 'auto';
-    var container = video.closest(".video-container");
-    var visible = isElementInViewport(container);
-    
-    if (visible) { 
-      console.log(video.src );
-      if (video.src ==''  ) {
-         video.src = data_src; 
-      }
-
-      if (pausedVideos[video.src]) {
-        video.currentTime = pausedVideos[video.src];
-        delete pausedVideos[video.src];
-      }
-      video.play();
-    } else {
-      if (!video.paused) {
-        video.pause();
-        pausedVideos[video.src] = video.currentTime;
-      }
-    }
-  }
-}
-
-// Llamar a la función cuando la página se carga y cuando el usuario desplaza la página
-window.onload = checkVisibility;
-window.addEventListener("scroll", checkVisibility);
-</script>
+<script src="build/js/app.js"></script>
  
 </body>
 
