@@ -69,10 +69,10 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-              <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
+              <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy lozad   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video> -->
-                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >  </video> 
+                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >  </video> 
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
@@ -86,11 +86,11 @@
                         <figure class="relative block video-container" >
                            <img src="build/img/softouch-bg.jpg?v=<?=theVersion();?>" alt=""> 
                            <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%]" src="build/svg/softouch.svg" alt=""> 
-                           <video  data-src="build/video/suave-video-left.mp4?v=<?=theVersion();?>" loop type="video/mp4" poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0    w-full  video  "  >    </video>
+                           <video  data-src="build/video/suave-video-left.mp4?v=<?=theVersion();?>"  playsinline loop type="video/mp4" poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0    w-full  video  "  >    </video>
                         </figure>
                         <figure class="relative block video-container" > 
                            <img src="build/img/tetina-ss-bg.jpg?v=<?=theVersion();?>" alt="">
-                           <video  data-src="build/video/suave-video-right.mp4" loop type="video/mp4" poster="build/img/tetina-ss-bg.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
+                           <video  data-src="build/video/suave-video-right.mp4" loop type="video/mp4" poster="build/img/tetina-ss-bg.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
                            <h5  class=" z-[1] absolute right-[16px] bottom-[24px] text-white text-[12px] tracking-[0.60px] leading-[28.91px]  " >*Se utilizó una tetina SS para esta prueba.</h5>
                         </figure> 
                       </div> 
@@ -136,7 +136,7 @@
          <div  class="relative video-container" >
 
             <img  class="mx-auto" src="build/img/latch-on.jpg?v=<?=theVersion();?>" alt="">
-            <video  data-src="build/video/latch-on.mp4" loop type="video/mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
+            <video  data-src="build/video/latch-on.mp4" loop type="video/mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
          </div> 
        </section>
        <section  class="pt-[40px] pb-[43px]" >
@@ -151,7 +151,7 @@
                            <div  class="flex justify-center  ">
                               <div  class="relative video-container w-[210px] h-[210px]     ">
                                  <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]   lazy bottom-0 top-0 left-0 right-0  "></video>
+                                 <video  data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]   lazy lozad bottom-0 top-0 left-0 right-0  "></video>
                               </div>
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
@@ -165,7 +165,7 @@
                            <div  class="flex justify-center ">
                               <div  class="relative video-container w-[210px] h-[210px]   ">
                                  <img class=" x-auto w-[195px]  h-[195px]" src="build/img/succionar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  data-src="build/video/succionar.mp4" loop type="video/mp4" poster="build/img/succionar.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                                 <video  data-src="build/video/succionar.mp4" loop type="video/mp4" poster="build/img/succionar.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div>
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
@@ -179,7 +179,7 @@
                            <div  class="flex justify-center ">
                               <div  class="relative video-container w-[210px] h-[210px]   ">
                                  <img class=" mx-auto  w-[195px]  h-[195px]" src="build/img/tragar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  data-src="build/video/tragar.mp4" loop type="video/mp4" poster="build/img/tragar.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                                 <video  data-src="build/video/tragar.mp4" loop type="video/mp4" poster="build/img/tragar.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div>
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>
@@ -201,7 +201,7 @@
             <div  class="relative video-container" >
 
                <img  class="mx-auto" src="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" alt="">
-               <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+               <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
             </div> 
          </section>
 
@@ -211,13 +211,13 @@
                         <div  class="relative video-container" > 
                            <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                            <img  class="mx-auto" src="build/img/you-hug.jpg?v=<?=theVersion();?>" alt="">
-                           <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                           <video  data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
                      </div>
                      <div > 
                         <div  class="relative video-container w-ful max-w-[338px] mx-auto" > 
                            <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?=theVersion();?>" alt="">
-                           <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                           <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
                      </div>
                    </div>
@@ -293,7 +293,7 @@
                               <div  class="relative video-container" > 
                                 <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                                  <img  class="mx-auto" src="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" alt="">
-                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-redondo.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
                                  <div class="relative" >
@@ -315,7 +315,7 @@
                               <div  class="relative video-container" > 
                                  <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                                  <img  class="mx-auto" src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">
-                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full"></video>
+                                 <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                               </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
                                  <div class="relative" >
@@ -349,7 +349,7 @@
                   <div  class="relative video-container" > 
                      <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span>
                      <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">
-                     <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" class="absolute lazy bottom-0 top-0 left-0 right-0 w-full h-full object-cover "></video>
+                     <video  data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover "></video>
                   </div> 
             </div>
          </section>
@@ -439,22 +439,22 @@ function videoScroll() {
  
 </script>*/
 <!-- <script>
-  window.lazyLoadOptions = {
-    elements_selector: ".lazy"
+  window.lazy lozadLoadOptions = {
+    elements_selector: ".lazy lozad"
   };
 </script>
 <script
   async
-  src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js">
+  src="https://cdn.jsdelivr.net/npm/vanilla-lazy lozadload@16.1.0/dist/lazy lozadload.min.js">
 </script> -->
 
 
 <script src="build/js/app.js?v=<?=theVersion();?>"></script> 
  
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> 
 
  <script>
-   const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+   const observer = lozad(); // lazy lozad loads elements with default selector as '.lozad'
 observer.observe();
  </script>
 </body>
