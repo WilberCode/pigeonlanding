@@ -449,12 +449,13 @@ function videoScroll() {
 </script> -->
 
 
-<script src="build/js/app.js?v=<?=theVersion();?>"></script>
-<script src="build/js/jquery.lazy.min.js"></script>
- <script>
-   
+<script src="build/js/app.js?v=<?=theVersion();?>"></script> 
  
-            
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+ <script>
+   const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
  </script>
 </body>
 
