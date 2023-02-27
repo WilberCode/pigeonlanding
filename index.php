@@ -451,11 +451,11 @@ function videoScroll() {
 
 <script src="build/js/app.js?v=<?=theVersion();?>"></script> 
  
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> 
+ <!--   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>  -->
 
  <script>
-   const observer = lozad(); // lazy lozad loads elements with default selector as '.lozad'
-observer.observe();
+  /*  const observer = lozad(); // lazy lozad loads elements with default selector as '.lozad'
+observer.observe(); */
  </script>
 </body>
 
