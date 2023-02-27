@@ -69,10 +69,10 @@
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
                </div> 
-              <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
+              <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video> -->
-                  <video id="autoplay" preload="auto" muted playsinline   loop data-src="build/video/estira-y-compara.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >  </video> 
+                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >  </video> 
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
