@@ -456,7 +456,7 @@ function videoScroll() {
 </script> -->
 
 
-<script src="build/js/app.js"></script>
+<script src="build/js/app.js?v=<?=theVersion();?>"></script>
  
 </body>
 
