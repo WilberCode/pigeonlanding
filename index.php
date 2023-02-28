@@ -214,7 +214,7 @@
                         </div> 
                      </div>
                      <div > 
-                        <div  class="relative video-container w-ful max-w-[338px] mx-auto" > 
+                        <div  class="relative video-container video-outline w-ful max-w-[338px] mx-auto" > 
                            <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?=theVersion();?>" alt="">
                            <video  muted data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
