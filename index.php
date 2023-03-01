@@ -78,7 +78,7 @@
             <div class="text-center" >
                <div  class="px-4" >
                   <h2  class="text-primary-500" >Suave y muy flexible</h2>
-                  <p  class=" sm:text-h3 leading-[1.2]" >Evita la confusión tetina / chupete con el pezón</p>
+                  <p  class=" sm:text-h3 leading-[50px]" >Evita la confusión tetina / chupete con el pezón</p>
                </div>
                <div class="mt-[23px]  flex justify-center  ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
@@ -279,7 +279,7 @@
          <section  class="pt-[65px]  pb-[31px] text-center bg-[#fcf0f5]">
                <div class="px-4">
                   <h2  class="text-primary-500 text-[38px]  sm:text-[44px] md:text-[54px]" >¿Cómo escoger el tamaño de tetina?</h2>
-                  <p  class="  text-[22px]  sm:text-[30px] md:text-[38px] tracking-[0.20px] mt-[13px] leading-[1.2]" >Cubrimos todas las etapas de tu bebé</p>
+                  <p  class="  text-[22px]  sm:text-[30px] md:text-[38px] tracking-[0.20px] mt-[13px] leading-[50px]" >Cubrimos todas las etapas de tu bebé</p>
                </div>
                <div class="mt-[55px] pl-4 pr-4 md:pr-24">
                   <img class="max-w-[827px] ml-auto " src="build/svg/tamaho-de-tetina.svg" alt="">
