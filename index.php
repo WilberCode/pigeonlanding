@@ -84,7 +84,8 @@
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
                         <figure class="relative block video-container video-outline" >
                            <img src="build/img/softouch-bg.jpg?v=<?=theVersion();?>" alt=""> 
-                           <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%] max-w-[227px]" src="build/svg/softouch.svg" alt=""> 
+                           <!-- <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%] max-w-[227px]" src="build/svg/softouch.svg" alt="">  -->
+                           <h3 class="absolute z-[1] top-[11%] w-full text-center text-[20px] sm:text-[29.7px] text-[#626366] leading-[24px] sm:leading-[33px] " >Tan suave como un <br> malvavisco</h3>
                          <video   muted playsinline loop  type="video/mp4"  data-src="build/video/suave-video-left.mp4"  poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0    w-full   "  >    </video>                                   
                         </figure>
                         <figure class="relative block video-container" > 
@@ -210,7 +211,7 @@
                         <div  class="relative video-container" > 
                            <!-- <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span> -->
                            <img  class="mx-auto" src="build/img/you-hug.jpg?v=<?=theVersion();?>" alt="">
-                           <video  muted data-src="build/video/biberon-pigeonn.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
+                           <video  muted data-src="build/video/you-hug.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
                      </div>
                      <div > 
@@ -348,7 +349,7 @@
                   <div  class="relative video-container" > 
                      <!-- <span class=" z-[1] text-white absolute top-4 left-2 p-2 bg-red-700" >Falta su video ⚠️</span> -->
                      <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">
-                     <video  muted data-src="build/video/biberon-verdee.mp4" loop type="video/mp4" poster="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover "></video>
+                     <video  muted data-src="build/video/rosca-rosa.mp4" loop type="video/mp4" poster="build/img/rosca-rosa.jpg" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover object-top "></video>
                   </div> 
             </div>
          </section>
