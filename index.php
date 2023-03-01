@@ -39,7 +39,7 @@
          <section class="relative mt-[15px]  lg:mt-[-15px] xl:mt-[-23px]">
             <div class="text-center" >
                <h2  class="text-primary-500" >¡Hola Mamá!</h2>
-               <p  class="sm:text-h3 leading-[1.2]" >Bienvenida al reto Pigeon SofTouch</p>
+               <p  class="sm:text-h3 leading-[50px]" >Bienvenida al reto Pigeon SofTouch</p>
              <!--   <div class="mt-[23px]">
                   <img  class="mx-auto" src="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" alt="">
                </div> -->
