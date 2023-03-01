@@ -39,7 +39,7 @@
          <section class="relative mt-[15px]  lg:mt-[-15px] xl:mt-[-23px]">
             <div class="text-center" >
                <h2  class="text-primary-500" >¡Hola Mamá!</h2>
-               <p  class="sm:text-h3" >Bienvenida al reto Pigeon SofTouch</p>
+               <p  class="sm:text-h3 leading-[1.2]" >Bienvenida al reto Pigeon SofTouch</p>
              <!--   <div class="mt-[23px]">
                   <img  class="mx-auto" src="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" alt="">
                </div> -->
@@ -55,7 +55,7 @@
                    <img  class=" ml-1 md:ml-[23px] w-[50px] sm:w-[80px] md:w-[100px]  lg:w-auto " src="build/img/global.png" alt="">
                    <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
               </div>
-            <!--   <div  div  class="absolute right-[5%] lg:right-[100px] bottom-[8%] md:bottom-[89px] z-[1]   " >
+              <div  div  class="absolute right-[5%] lg:right-[100px] bottom-[8%] md:bottom-[89px] z-[1]   " >
                  <p  class=" text-[14px] sm:text-[20px] lg:text-[31.49px] text-dark2 tracking-[0.20px] lg:leading-[36.14px] text-right " >
                   Conoce todos <br>
                   los beneficios <br>
@@ -67,7 +67,7 @@
                   </span>
                  </p>
                  <img  class=" mt-[15px] sm:mt-[28px] ml-auto w-[40px] sm:w-[74px] h-[40px] sm:h-[74px] " src="build/svg/down.svg" alt="">
-               </div>  -->
+               </div> 
               <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy lozad   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video> -->
@@ -78,13 +78,13 @@
             <div class="text-center" >
                <div  class="px-4" >
                   <h2  class="text-primary-500" >Suave y muy flexible</h2>
-                  <p  class=" sm:text-h3" >Evita la confusión tetina / chupete con el pezón</p>
+                  <p  class=" sm:text-h3 leading-[1.2]" >Evita la confusión tetina / chupete con el pezón</p>
                </div>
                <div class="mt-[23px]  flex justify-center  ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
                         <figure class="relative block video-container video-outline" >
                            <img src="build/img/softouch-bg.jpg?v=<?=theVersion();?>" alt=""> 
-                           <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%]" src="build/svg/softouch.svg" alt=""> 
+                           <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%] max-w-[227px]" src="build/svg/softouch.svg" alt=""> 
                          <video   muted playsinline loop  type="video/mp4"  data-src="build/video/suave-video-left.mp4"  poster="build/img/softouch-bg.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   bottom-0    w-full   "  >    </video>                                   
                         </figure>
                         <figure class="relative block video-container" > 
@@ -279,7 +279,7 @@
          <section  class="pt-[65px]  pb-[31px] text-center bg-[#fcf0f5]">
                <div class="px-4">
                   <h2  class="text-primary-500 text-[38px]  sm:text-[44px] md:text-[54px]" >¿Cómo escoger el tamaño de tetina?</h2>
-                  <p  class="  text-[22px]  sm:text-[30px] md:text-[38px] tracking-[0.20px] mt-[13px]" >Cubrimos todas las etapas de tu bebé</p>
+                  <p  class="  text-[22px]  sm:text-[30px] md:text-[38px] tracking-[0.20px] mt-[13px] leading-[1.2]" >Cubrimos todas las etapas de tu bebé</p>
                </div>
                <div class="mt-[55px] pl-4 pr-4 md:pr-24">
                   <img class="max-w-[827px] ml-auto " src="build/svg/tamaho-de-tetina.svg" alt="">
