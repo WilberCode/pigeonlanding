@@ -357,7 +357,7 @@
             <div class="text-center max-w-[1000px] mx-auto" >
                <h4  class=" text-[24px] sm:text-[30px] md:text-[38px] tracking-[0.20px] leading-[30px] md:leading-[48.69px]  mb-[15px]" > <span class="font-medium">¡Reto cumplido!</span> Ahora que ya comprobaste que nuestro
 biberón Softouch es el más suave y flexible</h4>
-               <a href="#footer" class=" text-[20px] sm:text-[31px] text-primary-500 font-oscine font-bold tracking-[4px] sm:tracking-[8px]  " >CÓMPRALO AQUI</a> 
+               <a href="https://pigeonlatam.com/tiendaslatam/" class=" text-[20px] sm:text-[31px] text-primary-500 font-oscine font-bold tracking-[4px] sm:tracking-[8px]  " >CÓMPRALO AQUI</a> 
             </div>
          </section>
          </main>
@@ -373,90 +373,11 @@ biberón Softouch es el más suave y flexible</h4>
 
       </div>  
    </div>       
-<!--      <script>
-   
- const video =  document.createElement(VideoElements.VIDEO);    
-/* const source =  document.createElement(VideoElements.SOURCE); */
  
- 
-
-
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
-
-
-/* 
-window.addEventListener('load', videoScroll);
-window.addEventListener('scroll', videoScroll);
-
-function videoScroll() {
-
-  if ( document.querySelectorAll('video').length > 0) {
-    var windowHeight = window.innerHeight,
-        videoEl = document.querySelectorAll('video');
-
-    for (var i = 0; i < videoEl.length; i++) {
-
-      var thisVideoEl = videoEl[i],
-          videoHeight = thisVideoEl.clientHeight,
-          videoClientRect = thisVideoEl.getBoundingClientRect().top;
-        
-            
-      if ( videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ) {
-         console.log(thisVideoEl.src);
-         const videoSrc = thisVideoEl.getAttribute('data-src');
-         if (thisVideoEl.src ='' || thisVideoEl.src != videoSrc ) {
-            
-            thisVideoEl.setAttribute('src', videoSrc);
-          }
-            
-
-        thisVideoEl.play();
-         
-      } else {
-        thisVideoEl.pause();   
-      }
-
-    }
-  }
-
-} 
- 
-</script>*/
-<!-- <script>
-  window.lazy lozadLoadOptions = {
-    elements_selector: ".lazy lozad"
-  };
-</script>
-<script
-  async
-  src="https://cdn.jsdelivr.net/npm/vanilla-lazy lozadload@16.1.0/dist/lazy lozadload.min.js">
-</script> -->
-
 
 <script src="build/js/app.js?v=<?=theVersion();?>"></script> 
  
- <!--   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>  -->
-
- <script>
-  /*  const observer = lozad(); // lazy lozad loads elements with default selector as '.lozad'
-observer.observe(); */
  
- 
-
-
- </script>
 </body>
 
 </html>
