@@ -49,8 +49,10 @@
             <div  class="max-w-[1151px] relative overflow-hidden mx-auto video-outline video-container " >
 
                <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
+           
           
-              <img  class="mx-auto" src="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" alt="">
+                <img  class="mx-auto" src="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" alt=""> 
+             
               <div  class="absolute left-[22px]  bottom-[18px]  text-left z-[1]" > 
                    <img  class=" ml-1 md:ml-[23px] w-[50px] sm:w-[80px] md:w-[100px]  lg:w-auto " src="build/img/global.png" alt="">
                    <p  class=" text-[11px] sm:text-[15px] mt-[20px] sm:mt-[36px]" >*Global Baby Bottles Market 2021, Global Info Research.</p>  
@@ -71,7 +73,7 @@
               <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy lozad   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video> -->
-                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara-02.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy lozad   video-outline bottom-0 left-0 right-0  w-full  "  >  </video> 
+                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara-03.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy lozad  estira-comprar  video-outline bottom-0  right-0  w-[66%] left-[50%] translate-x-[-51%] top-[50%] translate-y-[-46.8%]   "  >  </video> 
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
