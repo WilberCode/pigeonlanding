@@ -83,11 +83,11 @@
                <div class="mt-[23px]  flex justify-center  ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
                         <figure class="relative block video-container video-outline-1" > 
-                           <img src="build/gif/suave-video-left.gif?v=<?=theVersion();?>" alt="">
+                           <img data-gifsrc="build/gif/suave-video-left.gif?v=<?=theVersion();?>" alt=""  class="gif" >
                            <h3 class="absolute z-[1] top-[11%] w-full text-center text-[20px] sm:text-[29.7px] text-[#626366] leading-[24px] sm:leading-[33px] " >Tan suave como un <br> malvavisco</h3> 
                         </figure>
                         <figure class="relative block video-container" > 
-                           <img src="build/gif/suave-video-right.gif?v=<?=theVersion();?>" alt="">   
+                           <img data-gifsrc="build/gif/suave-video-right.gif?v=<?=theVersion();?>" alt=""  class="gif" >   
                            <h5  class=" z-[1] absolute right-[16px] bottom-[24px] text-white text-[12px] tracking-[0.60px] leading-[28.91px]  " >*Se utilizó una tetina SS para esta prueba.</h5>
                         </figure> 
                       </div> 
@@ -146,7 +146,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
                            <div  class="flex justify-center  ">
-                              <img class=" mx-auto w-[210px]  h-[210px]" src="build/gif/enganchar.gif" alt=""> 
+                              <img class=" mx-auto w-[210px]  h-[210px] gif " data-gifsrc="build/gif/enganchar.gif" alt="" > 
                        
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
@@ -158,7 +158,7 @@
                         </div> 
                         <div  class=" "> 
                            <div  class="flex justify-center ">
-                             <img class=" mx-auto w-[210px]  h-[210px]" src="build/gif/succionar.gif" alt=""> 
+                             <img class=" mx-auto w-[210px]  h-[210px] gif" data-gifsrc="build/gif/succionar.gif" alt=""> 
                             
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
@@ -170,7 +170,7 @@
                         </div> 
                         <div  class=""> 
                            <div  class="flex justify-center ">
-                              <img class=" mx-auto w-[210px]  h-[210px]" src="build/gif/tragar.gif" alt=""> 
+                              <img class=" mx-auto w-[210px]  h-[210px] gif" data-gifsrc="build/gif/tragar.gif" alt=""> 
                          
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>
@@ -206,7 +206,7 @@
                      </div>
                      <div > 
                         <div  class="relative video-container video-outline-1 w-ful max-w-[338px] mx-auto" > 
-                           <img  class="mx-auto" src="build/gif/biberon-verde.gif" alt="">
+                           <img  class="mx-auto gif" data-gifsrc="build/gif/biberon-verde.gif" alt="">
                          <!--   <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?//=theVersion();?>" alt=""> -->
                      <!--     <video  muted data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>-->
                         </div> 
@@ -281,7 +281,7 @@
                         <div>
                            <div> 
                               <div  class="relative video-container" > 
-                                 <img  class="mx-auto" src="build/gif/agujero-redondo.gif?v=<?=theVersion();?>" alt="">
+                                 <img  class="mx-auto gif" data-gifsrc="build/gif/agujero-redondo.gif?v=<?=theVersion();?>" alt="">
                                </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
                                  <div class="relative" >
@@ -301,7 +301,7 @@
                            <div>
                             <!--   <img class="mx-auto   " src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">  -->
                               <div  class="relative video-container" > 
-                                 <img  class="mx-auto" src="build/gif/agujero-corte-y.gif?v=<?=theVersion();?>" alt="">  
+                                 <img  class="mx-auto gif" data-gifsrc="build/gif/agujero-corte-y.gif?v=<?=theVersion();?>" alt="">  
                                  <video  muted  loop type="video/mp4"  data-src="build/video/agujero-corte-y.mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute  video lazy lozad bottom-0 top-0 left-0 right-0 w-full">
                                  </video>
                           
