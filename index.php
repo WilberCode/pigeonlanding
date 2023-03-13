@@ -304,7 +304,7 @@
                                <!--   <img  class="mx-auto gif" data-gifsrc="build/gif/agujero-corte-y.gif?v=<?//=theVersion();?>" alt="">   -->
                              
                                  <img  class="mx-auto" src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">
-                                 <video  muted data-src="build/video/agujero-corte-y.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
+                                 <video  muted data-src="build/video/agujero-corte-y.mp4" loop type="video/mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute video lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                           
                               </div> 
                               <div  class=" mt-[21px] bg-primary-500 flex justify-center size-video-desc" >
