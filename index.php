@@ -133,7 +133,7 @@
          <div  class="relative video-container video-outline-1">
 
             <img  class="mx-auto" src="build/img/latch-on.jpg?v=<?=theVersion();?>" alt="">
-            <video muted="false"   loop type="video/mp4" src="build/video/latch-on.mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
+            <video muted   loop type="video/mp4" data-src="build/video/latch-on.mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
          </div> 
        </section>
        <section  class="pt-[40px] pb-[43px]" >
@@ -192,7 +192,7 @@
             <div  class="relative video-container" >
 
                <img  class="mx-auto" src="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" alt="">
-               <video  muted src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
+               <video  muted data-src="build/video/biberon-pigeon.mp4" loop type="video/mp4" poster="build/img/biberon-pigeon.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
             </div> 
          </section>
 
@@ -201,14 +201,14 @@
                      <div  class="sm:flex-shrink"  > 
                         <div  class="relative video-container" > 
                            <img  class="mx-auto" src="build/img/you-hug.jpg?v=<?=theVersion();?>" alt="">
-                           <video  muted src="build/video/you-hug.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
+                           <video  muted data-src="build/video/you-hug.mp4" loop type="video/mp4" poster="build/img/you-hug.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
                      </div>
                      <div > 
                         <div  class="relative video-container video-outline-1 w-ful max-w-[338px] mx-auto" > 
                            <img  class="mx-auto" src="build/gif/biberon-verde.gif" alt="">
                          <!--   <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?//=theVersion();?>" alt=""> -->
-                     <!--     <video  muted src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>-->
+                     <!--     <video  muted data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy lozad bottom-0 top-0 left-0 right-0 w-full"></video>-->
                         </div> 
                      </div>
                    </div>
@@ -302,7 +302,7 @@
                             <!--   <img class="mx-auto   " src="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" alt="">  -->
                               <div  class="relative video-container" > 
                                  <img  class="mx-auto" src="build/gif/agujero-corte-y.gif?v=<?=theVersion();?>" alt="">  
-                                 <video  muted  loop type="video/mp4"  src="build/video/agujero-corte-y.mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute  video lazy lozad bottom-0 top-0 left-0 right-0 w-full">
+                                 <video  muted  loop type="video/mp4"  data-src="build/video/agujero-corte-y.mp4" poster="build/img/agujero-corte-y.jpg?v=<?=theVersion();?>" class="absolute  video lazy lozad bottom-0 top-0 left-0 right-0 w-full">
                                  </video>
                           
                               </div> 
@@ -337,9 +337,9 @@
                   <!--    <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">   -->
                   <div  class="relative video-container" > 
                      <img  class="mx-auto" src="build/img/flexibilidad-de-tetina-video.jpg?v=<?=theVersion();?>" alt="">
-<!--                      <video  muted src="build/video/rosca-rosa.mp4" loop type="video/mp4" poster="build/img/rosca-rosa-v1.jpg" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover object-top "></video>
+<!--                      <video  muted data-src="build/video/rosca-rosa.mp4" loop type="video/mp4" poster="build/img/rosca-rosa-v1.jpg" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover object-top "></video>
  -->                
-                     <video  muted  loop src="build/video/rosca-rosa.mp4" type="video/mp4"   poster="build/img/rosca-rosa-v1.jpg" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover object-top ">          
+                     <video  muted  loop data-src="build/video/rosca-rosa.mp4" type="video/mp4"   poster="build/img/rosca-rosa-v1.jpg" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full h-full object-cover object-top ">          
                         
                   </div> 
             </div>
