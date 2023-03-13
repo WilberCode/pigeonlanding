@@ -150,7 +150,7 @@
                <div class="mt-[45px]  flex justify-center ">
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
-                           <div  class="flex justify-center  ">
+                           <div  class="flex justify-center ">
                               <div  class="relative video-container w-[210px] h-[210px]     ">
                                  <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg?v=<?=theVersion();?>" alt=""> 
                                  <video  muted data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]   lazy lozad bottom-0 top-0 left-0 right-0  "></video>

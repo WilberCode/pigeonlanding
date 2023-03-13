@@ -146,7 +146,7 @@
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
                            <div  class="flex justify-center  ">
-                              <img class=" mx-auto w-[210px]  h-[210px] gif " data-gifsrc="build/gif/enganchar.gif" alt="" > 
+                              <img class=" mx-auto w-[210px]  h-[210px] gif " src="build/gif/enganchar.gif" alt="" > 
                        
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
@@ -158,8 +158,7 @@
                         </div> 
                         <div  class=" "> 
                            <div  class="flex justify-center ">
-                             <img class=" mx-auto w-[210px]  h-[210px] gif" data-gifsrc="build/gif/succionar.gif" alt=""> 
-                            
+                             <img class=" mx-auto w-[210px]  h-[210px] gif" src="build/gif/succionar.gif" alt=""> 
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
@@ -170,7 +169,7 @@
                         </div> 
                         <div  class=""> 
                            <div  class="flex justify-center ">
-                              <img class=" mx-auto w-[210px]  h-[210px] gif" data-gifsrc="build/gif/tragar.gif" alt=""> 
+                              <img class=" mx-auto w-[210px]  h-[210px] gif" src="build/gif/tragar.gif" alt=""> 
                          
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>

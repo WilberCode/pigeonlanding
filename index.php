@@ -150,11 +150,8 @@
                <div class="mt-[45px]  flex justify-center ">
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px]   sm:gap-[20px]    md:gap-[67px]    text-center   "> 
                         <div  class="    ">
-                           <div  class="flex justify-center  ">
-                              <div  class="relative video-container w-[210px] h-[210px]     ">
-                                 <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  muted data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]    lazy video lozad bottom-0 top-0 left-0 right-0  "></video>
-                              </div>
+                         <div  class="flex justify-center  ">
+                              <img class=" mx-auto w-[210px]  h-[210px]  " src="build/gif/enganchar.gif" alt="" >  
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">La boca del bebé se <br>
@@ -165,10 +162,7 @@
                         </div> 
                         <div  class=" "> 
                            <div  class="flex justify-center ">
-                              <div  class="relative video-container w-[210px] h-[210px]   ">
-                                 <img class=" x-auto w-[195px]  h-[195px]" src="build/img/succionar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  muted data-src="build/video/succionar.mp4" loop type="video/mp4" poster="build/img/succionar.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
-                              </div>
+                             <img class=" mx-auto w-[210px]  h-[210px] " src="build/gif/succionar.gif" alt=""> 
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Succionar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
@@ -179,10 +173,7 @@
                         </div> 
                         <div  class=""> 
                            <div  class="flex justify-center ">
-                              <div  class="relative video-container w-[210px] h-[210px]   ">
-                                 <img class=" mx-auto  w-[195px]  h-[195px]" src="build/img/tragar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  muted data-src="build/video/tragar.mp4" loop type="video/mp4" poster="build/img/tragar.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
-                              </div>
+                              <img class=" mx-auto w-[210px]  h-[210px] " src="build/gif/tragar.gif" alt="">  
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Tragar</h4>
                            <p class="mt-[22px] text-[21px] tracking-[0.20px] text-dark2 ">
