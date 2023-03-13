@@ -46,7 +46,7 @@
             </div>
          </section>
          <section  class="text-center mt-[23px]">
-            <div  class="max-w-[1151px] relative overflow-hidden mx-auto video-outline-3 video-container " >
+            <div  class="max-w-[1151px] relative overflow-hidden mx-auto video-outline video-container " >
 
                <h3 class="text-center absolute text-[18px] sm:text-[28px] md:text-[36px] lg:text-[45px] font-oscinetrial z-[1]    text-primary-500 tracking-[0.20px] top-[5%] lg:top-[46px] left-[50%] translate-x-[-50%]  "><span  class=" font-normal tracking-[10px] md:tracking-[30.8px]">ESTIRAY</span>COMPARA</h3> 
            
@@ -73,7 +73,7 @@
               <!--   <video id="autoplay" preload="auto" muted playsinline   loop poster="build/img/estira-y-compara.jpg?v=<?//=theVersion();?>" class="absolute lazy video lozad   bottom-0  left-[50%] translate-x-[-50%] top-[55%] translate-y-[-50%] w-full  "  >
                      <source src="build/video/estira-y-compara.mp4" type="video/mp4">
                   </video> -->
-                  <video id="autoplay"   muted playsinline   loop  src="build/video/estira-y-compara-03.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy lozad  estira-comprar  video-outline-3 bottom-0  right-0  w-[66%] left-[50%] translate-x-[-51%] top-[50%] translate-y-[-46.8%]   "  >  </video> 
+                  <video id="autoplay"   muted playsinline   loop data-src="build/video/estira-y-compara-03.mp4"  poster="build/img/estira-y-compara-02.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad  estira-comprar  video-outline bottom-0  right-0  w-[66%] left-[50%] translate-x-[-51%] top-[50%] translate-y-[-46.8%]   "  >  </video> 
             </div>
          </section> 
          <section  class="pt-[40px] pb-[30px]" >
@@ -84,7 +84,7 @@
                </div>
                <div class="mt-[23px]  flex justify-center  ">
                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[23px]  "> 
-                        <figure class="relative block video-container video-outline-3" >
+                        <figure class="relative block video-container video-outline" >
                            <img src="build/img/softouch-bg.jpg?v=<?=theVersion();?>" alt=""> 
                            <!-- <img  class="absolute z-[1] top-[12%] left-[50%] translate-x-[-50%] max-w-[227px]" src="build/svg/softouch.svg" alt="">  -->
                            <h3 class="absolute z-[1] top-[11%] w-full text-center text-[20px] sm:text-[29.7px] text-[#626366] leading-[24px] sm:leading-[33px] " >Tan suave como un <br> malvavisco</h3>
@@ -135,7 +135,7 @@
        </section>
     
        <section  class=" flex justify-center">
-         <div  class="relative video-container video-outline-3" >
+         <div  class="relative video-container video-outline" >
 
             <img  class="mx-auto" src="build/img/latch-on.jpg?v=<?=theVersion();?>" alt="">
             <video muted="false"   loop type="video/mp4" data-src="build/video/latch-on.mp4" poster="build/img/latch-on.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad   bottom-0 top-0 left-0 right-0   w-full  "  >    </video>
@@ -153,7 +153,7 @@
                            <div  class="flex justify-center  ">
                               <div  class="relative video-container w-[210px] h-[210px]     ">
                                  <img class=" mx-auto w-[195px]  h-[195px]" src="build/img/enganchar.jpg?v=<?=theVersion();?>" alt=""> 
-                                 <video  muted data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]    lazy video lozad bottom-0 top-0 left-0 right-0  "></video>
+                                 <video  muted data-src="build/video/enganche.mp4" loop type="video/mp4" poster="build/img/enganchar.jpg?v=<?=theVersion();?>" class="absolute w-[210px] h-[210px]   lazy lozad bottom-0 top-0 left-0 right-0  "></video>
                               </div>
                            </div>
                            <h4  class=" maxlg:text-[25px] text-primary-500 text-[29px] mt-[18px] font-medium " >Enganchar</h4>
@@ -217,7 +217,7 @@
                         </div> 
                      </div>
                      <div > 
-                        <div  class="relative video-container video-outline-3 w-ful max-w-[338px] mx-auto" > 
+                        <div  class="relative video-container video-outline w-ful max-w-[338px] mx-auto" > 
                            <img  class="mx-auto" src="build/img/biberon-verde.jpg?v=<?=theVersion();?>" alt="">
                            <video  muted data-src="build/video/biberon-verde.mp4" loop type="video/mp4" poster="build/img/biberon-verde.jpg?v=<?=theVersion();?>" class="absolute lazy video lozad bottom-0 top-0 left-0 right-0 w-full"></video>
                         </div> 
